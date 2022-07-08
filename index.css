@@ -87,10 +87,10 @@ bottom: 0px;
 }
 @media (max-width:632px) {
     main{
-        height: 100vh;
+        height: 100%;
          margin-top: 90px;
          display: block;
-         width: 100%;
+         width: 80%;
     }
     
 }

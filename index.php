@@ -33,8 +33,21 @@
     <?php
         }
     ?> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
    </main>
-
+   <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <footer>
         <form action="enviarmensaje.php" method="post">
              <input type="text" id="mensaje" name="mensaje" placeholder="Escribe aqui tu mensaje" autocomplete="off"> 
