@@ -19,29 +19,22 @@
         </center>
     </header>
    <main>
-
-    <!-- MENSAJES -->
-    <!-- <?php
-
-   $conectar=mysqli_connect("localhost","root","","mensaje");
+     <?php
+     $conectar=mysqli_connect("localhost","root","","mensaje");
         $res=mysqli_query($conectar,'SELECT mensaje FROM mensaje');
         while ($mensajes=mysqli_fetch_object($res)) {
-            ?> 
-                <h4 clas="lenguaje">
+        ?> 
+       
+            <h4>
                 <?php echo($mensajes->mensaje); ?> 
-                </h4> 
-                <br>      
+            </h4>
+          <br>
+          <br>
     <?php
         }
-    ?> -->
-
+    ?> 
    </main>
-   <br>
-    <br>
-    <br>
-    <br>
-  
- 
+
     <footer>
         <form action="enviarmensaje.php" method="post">
              <input type="text" id="mensaje" name="mensaje" placeholder="Escribe aqui tu mensaje" autocomplete="off"> 
